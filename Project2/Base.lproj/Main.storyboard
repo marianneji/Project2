@@ -28,20 +28,29 @@
                                             <constraint firstAttribute="width" constant="200" id="y2R-is-5JT"/>
                                         </constraints>
                                         <state key="normal" image="france"/>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d4x-Rs-Un3"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMW-ay-uig">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMW-ay-uig">
                                         <rect key="frame" x="0.0" y="120" width="200" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="R85-gJ-cna"/>
                                         </constraints>
                                         <state key="normal" title="Button" image="uk"/>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bye-EN-2Fk"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TkU-cZ-kHH">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TkU-cZ-kHH">
                                         <rect key="frame" x="0.0" y="240" width="200" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="kZd-Lv-hr5"/>
                                         </constraints>
                                         <state key="normal" title="Button" image="us"/>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JTI-4Z-vDd"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
